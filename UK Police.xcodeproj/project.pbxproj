@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D61277923E57318008AFF37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61277823E57318008AFF37 /* AppDelegate.swift */; };
+		3D61277B23E57318008AFF37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61277A23E57318008AFF37 /* SceneDelegate.swift */; };
+		3D61278023E57318008AFF37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D61277E23E57318008AFF37 /* Main.storyboard */; };
+		3D61278223E5732B008AFF37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D61278123E5732B008AFF37 /* Assets.xcassets */; };
+		3D61278523E5732B008AFF37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D61278323E5732B008AFF37 /* LaunchScreen.storyboard */; };
+		3D61279023E57984008AFF37 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61278F23E57984008AFF37 /* UI.swift */; };
+		3D61279223E585DD008AFF37 /* Molot.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D61279123E585DD008AFF37 /* Molot.otf */; };
+		3D61279423E587FC008AFF37 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61279323E587FC008AFF37 /* MainVC.swift */; };
+		3D61279623E58826008AFF37 /* StatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61279523E58826008AFF37 /* StatVC.swift */; };
+		3D61279A23E58849008AFF37 /* ForcesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61279923E58849008AFF37 /* ForcesVC.swift */; };
+		3D61279C23E5B16C008AFF37 /* PoliceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61279B23E5B16C008AFF37 /* PoliceData.swift */; };
+		3D6127A023E70053008AFF37 /* forcesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61279E23E7004C008AFF37 /* forcesCell.swift */; };
+		3D6127A123E70053008AFF37 /* forcesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D61279F23E7004C008AFF37 /* forcesCell.xib */; };
+		45CE087C1FE12AE1E7DF3C37 /* Pods_UK_Police.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9127D388451E4586698EABCE /* Pods_UK_Police.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D61277523E57318008AFF37 /* UK Police.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UK Police.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D61277823E57318008AFF37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D61277A23E57318008AFF37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D61277F23E57318008AFF37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D61278123E5732B008AFF37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D61278423E5732B008AFF37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D61278623E5732B008AFF37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D61278F23E57984008AFF37 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		3D61279123E585DD008AFF37 /* Molot.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Molot.otf; sourceTree = "<group>"; };
+		3D61279323E587FC008AFF37 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		3D61279523E58826008AFF37 /* StatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatVC.swift; sourceTree = "<group>"; };
+		3D61279923E58849008AFF37 /* ForcesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcesVC.swift; sourceTree = "<group>"; };
+		3D61279B23E5B16C008AFF37 /* PoliceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceData.swift; sourceTree = "<group>"; };
+		3D61279E23E7004C008AFF37 /* forcesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forcesCell.swift; sourceTree = "<group>"; };
+		3D61279F23E7004C008AFF37 /* forcesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = forcesCell.xib; sourceTree = "<group>"; };
+		4952866799C4960CC878D5A7 /* Pods-UK Police.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UK Police.release.xcconfig"; path = "Target Support Files/Pods-UK Police/Pods-UK Police.release.xcconfig"; sourceTree = "<group>"; };
+		83CB5E3EE9B01155557B14C9 /* Pods-UK Police.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UK Police.debug.xcconfig"; path = "Target Support Files/Pods-UK Police/Pods-UK Police.debug.xcconfig"; sourceTree = "<group>"; };
+		9127D388451E4586698EABCE /* Pods_UK_Police.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UK_Police.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D61277223E57318008AFF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CE087C1FE12AE1E7DF3C37 /* Pods_UK_Police.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19724ABB61F471A7FD4AFA4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83CB5E3EE9B01155557B14C9 /* Pods-UK Police.debug.xcconfig */,
+				4952866799C4960CC878D5A7 /* Pods-UK Police.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D61276C23E57318008AFF37 = {
+			isa = PBXGroup;
+			children = (
+				3D61277723E57318008AFF37 /* UK Police */,
+				3D61277623E57318008AFF37 /* Products */,
+				19724ABB61F471A7FD4AFA4A /* Pods */,
+				CB578601FE1230FAB8A29BF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D61277623E57318008AFF37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D61277523E57318008AFF37 /* UK Police.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D61277723E57318008AFF37 /* UK Police */ = {
+			isa = PBXGroup;
+			children = (
+				3D61278D23E57943008AFF37 /* Data */,
+				3D61278C23E57933008AFF37 /* ViewControllers */,
+				3D61277823E57318008AFF37 /* AppDelegate.swift */,
+				3D61277A23E57318008AFF37 /* SceneDelegate.swift */,
+				3D61278123E5732B008AFF37 /* Assets.xcassets */,
+				3D61277E23E57318008AFF37 /* Main.storyboard */,
+				3D61278323E5732B008AFF37 /* LaunchScreen.storyboard */,
+				3D61278623E5732B008AFF37 /* Info.plist */,
+			);
+			path = "UK Police";
+			sourceTree = "<group>";
+		};
+		3D61278C23E57933008AFF37 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D61279323E587FC008AFF37 /* MainVC.swift */,
+				3D61279523E58826008AFF37 /* StatVC.swift */,
+				3D61279923E58849008AFF37 /* ForcesVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D61278D23E57943008AFF37 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3D61279D23E6FE0D008AFF37 /* XIB */,
+				3D61278E23E57957008AFF37 /* Font */,
+				3D61278F23E57984008AFF37 /* UI.swift */,
+				3D61279B23E5B16C008AFF37 /* PoliceData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3D61278E23E57957008AFF37 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				3D61279123E585DD008AFF37 /* Molot.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		3D61279D23E6FE0D008AFF37 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				3D61279E23E7004C008AFF37 /* forcesCell.swift */,
+				3D61279F23E7004C008AFF37 /* forcesCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		CB578601FE1230FAB8A29BF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9127D388451E4586698EABCE /* Pods_UK_Police.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D61277423E57318008AFF37 /* UK Police */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D61278923E5732B008AFF37 /* Build configuration list for PBXNativeTarget "UK Police" */;
+			buildPhases = (
+				3E70635F5A534542980D6B4F /* [CP] Check Pods Manifest.lock */,
+				3D61277123E57318008AFF37 /* Sources */,
+				3D61277223E57318008AFF37 /* Frameworks */,
+				3D61277323E57318008AFF37 /* Resources */,
+				584F3686A7D987A0A8353391 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UK Police";
+			productName = "UK Police";
+			productReference = 3D61277523E57318008AFF37 /* UK Police.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D61276D23E57318008AFF37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Artem Trembach";
+				TargetAttributes = {
+					3D61277423E57318008AFF37 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D61277023E57318008AFF37 /* Build configuration list for PBXProject "UK Police" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D61276C23E57318008AFF37;
+			productRefGroup = 3D61277623E57318008AFF37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D61277423E57318008AFF37 /* UK Police */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D61277323E57318008AFF37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6127A123E70053008AFF37 /* forcesCell.xib in Resources */,
+				3D61278523E5732B008AFF37 /* LaunchScreen.storyboard in Resources */,
+				3D61278223E5732B008AFF37 /* Assets.xcassets in Resources */,
+				3D61278023E57318008AFF37 /* Main.storyboard in Resources */,
+				3D61279223E585DD008AFF37 /* Molot.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E70635F5A534542980D6B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UK Police-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		584F3686A7D987A0A8353391 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UK Police/Pods-UK Police-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UK Police/Pods-UK Police-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UK Police/Pods-UK Police-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D61277123E57318008AFF37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D61279423E587FC008AFF37 /* MainVC.swift in Sources */,
+				3D61279C23E5B16C008AFF37 /* PoliceData.swift in Sources */,
+				3D61279023E57984008AFF37 /* UI.swift in Sources */,
+				3D61277923E57318008AFF37 /* AppDelegate.swift in Sources */,
+				3D6127A023E70053008AFF37 /* forcesCell.swift in Sources */,
+				3D61279623E58826008AFF37 /* StatVC.swift in Sources */,
+				3D61279A23E58849008AFF37 /* ForcesVC.swift in Sources */,
+				3D61277B23E57318008AFF37 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D61277E23E57318008AFF37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D61277F23E57318008AFF37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D61278323E5732B008AFF37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D61278423E5732B008AFF37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D61278723E5732B008AFF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D61278823E5732B008AFF37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D61278A23E5732B008AFF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CB5E3EE9B01155557B14C9 /* Pods-UK Police.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUPF22EDE2;
+				INFOPLIST_FILE = "UK Police/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trembach.ukpolice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D61278B23E5732B008AFF37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4952866799C4960CC878D5A7 /* Pods-UK Police.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUPF22EDE2;
+				INFOPLIST_FILE = "UK Police/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trembach.ukpolice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D61277023E57318008AFF37 /* Build configuration list for PBXProject "UK Police" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D61278723E5732B008AFF37 /* Debug */,
+				3D61278823E5732B008AFF37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D61278923E5732B008AFF37 /* Build configuration list for PBXNativeTarget "UK Police" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D61278A23E5732B008AFF37 /* Debug */,
+				3D61278B23E5732B008AFF37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D61276D23E57318008AFF37 /* Project object */;
+}

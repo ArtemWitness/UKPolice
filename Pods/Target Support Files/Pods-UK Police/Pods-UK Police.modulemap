@@ -1,0 +1,6 @@
+framework module Pods_UK_Police {
+  umbrella header "Pods-UK Police-umbrella.h"
+
+  export *
+  module * { export * }
+}
